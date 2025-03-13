@@ -1,9 +1,10 @@
 import "./App.css";
+import Orders from "./components/Orders";
 
 export default function App() {
   return (
     <div className="app-container">
-      <p>Hello World</p>
+      <Orders />
     </div>
   );
 }

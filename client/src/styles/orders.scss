@@ -1,0 +1,34 @@
+@import "../styles/variables/variables.scss";
+
+.orders-container {
+    width: 100%;
+    padding: 10%;
+
+    .orders-title {
+        margin-bottom: 5%;
+    }
+
+    .order {
+        border: 1px solid $black;
+        border-radius: 5px;
+        padding: 5%;
+        margin-bottom: 10%;
+    }
+
+    .order-id {
+        font-weight: 200;
+        margin-bottom: 5%;
+    }
+
+    .order-total-price {
+        font-weight: bold;
+    }
+
+    .order-table-number {
+        font-weight: bold;
+    }
+
+    .order-items {
+        margin-top: 5%;
+    }
+}
